@@ -1,0 +1,8 @@
+Bibliografias:
+-Java Script O guia definitivo.David
+-Java Script Guia do Programador
+-Guia de Referencia da ECma e Mozilla
+
+Videos:
+Modulo B video 10
+
