@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrevendo na tela com JavaScript</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é o seu nome: ')
+        document.write(`Seu nome tem ${nome.length} letras<br>`)
+        document.write(`O seu nome maiusculo vai ficar ${nome.toUpperCase()}`)
+
+        /*para formatar numeros como por exemplo casas decimais apos a virgula sar:
+        -var.toFixed(numero e casa)
+        Para trocar ponto por virgula usar:
+        -var.toFixed(numer de casas).replace('.',',')
+
+        Comando para formatar numeros em valor monetario de acordo com a localidade:
+        -var.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'})*/
+
+    </script>    
+</body>
+</html>

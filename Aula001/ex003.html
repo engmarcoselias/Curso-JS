@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003</title>
+</head>
+<body>
+    <main>
+        <h1>Tratameno de dados</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nisi nam quos distinctio qui eveniet ipsa porro necessitatibus iste. Vel porro dolor aperiam nemo tempore quaerat explicabo a, vero facilis!</p>
+    </main>
+    <script>
+        var nome = String(window.prompt('Qual seu nome: '))
+        var n1 = Number.parseFloat(window.prompt('Digite um numero: '))/*O comando prompt retorna um valor string*/
+        var n2 = Number(window.prompt('Digite outro numero: '))
+        var s = n1 + n2
+        window.alert('A soma é: ' + s)
+        /*Para converter uma variavel para numero:
+        - Number.parseInt(n) = Inteiro
+        - Number.parseFloat(n) = Real(com virgula)
+        */
+       /*Para o javaScript  pegar o valor de entrada automatico utilizar so o comando Number*/
+
+       /*Para converter um valor para string:
+       -String(n)
+       -n.toString()
+
+       Utiliando tamplate Script interpolação:*/
+       window.alert(`O aluno ${nome} tiro nota ${n1} e ${n2}`)
+       /*o comando ${} e chamado de placeholder*/
+
+       /*comados com variaveis:
+       -var.length = mostra quanos caracteres a string tem
+       -var.toUpperCase() = coloca tudo em maiusculas
+       -var.toLowerCase() =colocar maiusculas*/
+       
+
+    </script>
+    
+</body>
+</html>

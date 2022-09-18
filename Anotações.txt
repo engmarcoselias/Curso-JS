@@ -4,5 +4,4 @@ Bibliografias:
 -Guia de Referencia da ECma e Mozilla
 
 Videos:
-Modulo B video 10
-
+Modulo B video 11
