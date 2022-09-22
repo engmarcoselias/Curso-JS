@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo DOM</title>
+    <style>
+        body{
+            background-color: beige;
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudo em DOM</h1>
+    <p>Aqui vai o Resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id = msg>Click em min</div><br>
+    <div name ="e">Erro</div><br>
+    <div class="sel">Teste de seletor query</div>
+    <script>
+        /*
+        DOM = document Objetct Model vertente web do javascript.*/
+        /*
+        -Arvore DOM = começa pela raiz todo objeto DOM esta dentro de window.
+        -Manipular o modulo DOM
+        */
+       window.document.write('<br><br>' + window.document.URL)/*exemplo escrevendo uma informação contida no documento html usando DOM*/
+
+       /*--------------------------------------------
+       Existem varias maneiras de navegar entre os elementos.
+       Ex de 5:
+       -Por marca(tag) = getElementsByTagName()
+       -Por ID = getElementByid()
+       -Por nome = getElementsByName()
+       -Por classe = getElementsByCassName()
+       -Por seletor(CSS) = querySelector() e querySelectorAll(para plural)
+       ----------------------------------------------*/
+      
+      var p1 = document.getElementsByTagName('p')[0]
+      var p2 = document.getElementsByTagName('p')[1]/*quando  tiver o o s no gete elements sempre usar colchetes para selecionar um objeto quando ouver mais de um*/
+
+      var corpo = window.document.body
+      corpo.style.background = '#f5622388'/*mudando a cor do fundo com DOM*/
+      
+      document.write('<br><br>'+ p1.innerText)/*innerText = o texto que esta dentro da variavel p1*/
+      document.write('<br><br>'+ p2.innerHTML)/*innerHTML= o texto que esta dentro da variavel p2 com a formatação completa do HTML*/
+
+      var d = window.document.getElementById('msg')
+      d.style.background = 'green'
+      d.innerText = 'Estou aguardando...'
+      /*----------------------------------------------*/
+      var e = window.document.getElementsByName('e')[0]
+      e.innerText = 'Erro'
+      e.style.background = 'red'
+      /*-----------------------------------------------*/
+      var sele = window.document.querySelector('div.sel')
+      sele.style.background = 'white'
+
+    </script>
+</body>
+</html>

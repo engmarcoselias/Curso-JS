@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <!--Evento Dom e tudo o que possa acontecer com o elemento-->
+    <style>
+        div{
+            display: inline-block;
+            font: normal 15pt Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            margin-right: 20px;
+            border-radius: 50px;
+        }
+        #area2{
+            display: inline-block;
+            font: normal 15pt Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseout="sair()">Interaja...</div>
+    <div id="area2">Interaja...</div>
+    <script>
+        /*
+        FUNÇÕES
+                è uma sequencia de linhas de codigo que forman um bloco para serem executados. O bloco e formado por chaves {   }
+                todo bloco tem nome de function{} se ela não tiver nome ela é anonima, do contrario colocaremos nome na função como a ação a ser executada e depois ()e nesse parentese colocaremos parametros.
+        */
+
+       /*----------------------------------------------
+       Código dentro do HTML
+       -----------------------------------------------*/
+       var a = window.document.querySelector('#area')
+
+       function clicar(){
+        a.style.background = 'red'
+        a.innerText = 'Olá!'
+       }
+       function sair(){
+        a.style.background = 'green'
+        a.innerText = 'Interaja...'
+       }
+       /*---------------------------------------------
+       Código direto no JavaScript
+       ----------------------------------------------*/
+       var a2 = window.document.querySelector('#area2')
+       a2.addEventListener('click', clica2)/*Adicione um ouvinte de eventos que é acionado quando um usuário clica em um botão*/
+       a2.addEventListener('mouseout',sair2)
+
+       function clica2(){
+        a2.style.background = 'red'
+        a2.innerText = 'Olá!...'        
+       }
+       function sair2(){
+        a2.style.background = 'green'
+        a2.innerText = 'Interaja...'
+       }
+       
+
+    </script>  
+</body>
+</html>
