@@ -1,0 +1,5 @@
+//ESTRUTURA DE REPETIÇÃO COM VARIAVEL DE CONTROLE
+var c = 1
+for(var c = 1;c <= 10;c ++){
+    console.log(`O valor de c é : ${c}`)
+}
