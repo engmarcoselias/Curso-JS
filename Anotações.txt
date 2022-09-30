@@ -3,5 +3,7 @@ Bibliografias:
 -Java Script Guia do Programador
 -Guia de Referencia da ECma e Mozilla
 
+-ESTUDAR RECURCIVIDADE
+
 Videos:
-Modulo E video 27
+Modulo F video 31

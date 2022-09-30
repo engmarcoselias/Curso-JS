@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="../ex020/stilo.css">   
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <label for="txtnum">
+                Numero:<input type="number" name="txtnum" id="txtnum">
+            </label>
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+        <div id="resultado">
+            <!--
+                Para criar elementos dentro de um <select> tenho que colocar a tag <option></option>
+            -->               
+            <select name="sele" id="sele" size="10" max-length="10">
+                <!--Valor inserido por Javascript-->
+                <option>Digite um valor acima.</option>
+            </select>  
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Automa Engenharia</p>
+    </footer>
+    <script src="../ex020/script.js">        
+    </script>  
+</body>
+</html>
