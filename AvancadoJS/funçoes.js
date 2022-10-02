@@ -1,10 +1,16 @@
 //FUNÇÕES NA VIDA REAL
-/* Parametros
+/* 
 -Chamada
 -parametro
 -ação
 -retorno
 */
+/*function ação(parametro){
+    return (resultado)
+}
+(chamada) ação(parametroa)
+
+Obs. é executado primeiro a chamada no caso do exemplo parametroc ontido na ação.
 
 /* FUNÇÃO NA PROGRAMAÇÃO: São ações executadas assim que são chamadas ou em decorrência de algum evento*/
 

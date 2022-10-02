@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="../ex021/stilo.css">   
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div id="numero">
+            <p id="paragrafo">
+                <label for="txtnum">
+                    Número (entre 1 e 100): <input type="number" name="txtNum" id="txtNum"> <input type="button" value="Adicionar" onclick="adicionar()">
+                </label><br>
+            </p>
+            <select name="txtSel" id="txtSel" size="6">
+                <!--Valor adicionado por JavaScript-->
+            </select><br>
+            <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id="resultado">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Automa Engenharia</p>
+     </footer>
+    <script src="../ex021/script.js">        
+    </script>  
+</body>
+</html>
