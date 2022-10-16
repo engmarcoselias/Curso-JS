@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            background-color: rgba(0, 255, 255, 0.452);
+            border: 1px solid black;
+            width: 50px;
+            height: 20px;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            text-align: center;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <script src="medidor_de_velocidade.js"></script>    
+    <div id="dados" >
+        <!--dados mostrados por javascript-->
+    </div>
+    <div id="dados2" >
+        <!--dados mostrados por javascript-->
+    </div>
+    <input type="submit" value="Verificar" onclick="soma(); mostraResultado()">
+    <script src="function.js"></script>    
 </body>
 </html>

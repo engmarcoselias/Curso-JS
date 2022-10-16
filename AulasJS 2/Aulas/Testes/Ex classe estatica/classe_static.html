@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Classe Static </title>
+</head>
+<body>
+    <h1>Exemplo de metodo e instancia em classe estatica</h1>
+    <div id="dados">
+    </div>
+
+    <script src="classes_aula2.js"></script>
+    <script>
+        var c = new Cliente()
+        c.nome = 'Danilo'
+        c.telefone = '25455665'
+        c.cpf = '6655855555'
+        c.GravarMemoria()            
+
+        var c2 = new Cliente()
+        c2.nome = 'Marcos'
+        c2.telefone = '555558788'
+        c2.cpf = '555522222555'
+        c2.GravarMemoria()
+
+        var c3 = new Cliente()
+        c3.nome = 'Luiz'
+        c3.telefone = '2656835553'
+        c3.cpf = '556574555'
+        c3.GravarMemoria()
+
+        var c4 = new Cliente()
+        c4.nome = 'José'
+        c4.telefone = '265683889953'
+        c4.cpf = '565656656555'
+        c4.GravarMemoria()
+
+        Cliente.todos()
+
+    </script>    
+</body>
+</html>

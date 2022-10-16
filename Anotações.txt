@@ -2,12 +2,9 @@ Bibliografias:
 -Java Script O guia definitivo.David
 -Java Script Guia do Programador
 -Guia de Referencia da ECma e Mozilla
-
+----------------------------------------------
 -ESTUDAR RECURCIVIDADE
-
-Videos:
-FIM VIDEO 33
-
+-PESQUISAR CMS = SISTEMA DE GERENCIAMENTO DE CONTEUDO
 -ESTUDAR FUNÇÕES
 -ESTUDAR OBJETOS
 -MODULARIZAÇÃO
@@ -15,7 +12,8 @@ FIM VIDEO 33
 -JSON(TRASMITIR DADOS E SALVAR DADOS)
 -AJAX
 -NodeJS
+-----------------------------------------------
 
 AULA JS 2
 
-VIDEO 29 
+VIDEO 16 POO publicos e privados
