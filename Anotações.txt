@@ -16,4 +16,4 @@ Bibliografias:
 
 AULA JS 2
 
-VIDEO 16 POO publicos e privados
+VIDEO 17 POO Herança
