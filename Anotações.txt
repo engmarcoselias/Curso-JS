@@ -1,3 +1,5 @@
+AULA JS  1
+
 Bibliografias:
 -Java Script O guia definitivo.David
 -Java Script Guia do Programador
@@ -13,7 +15,11 @@ Bibliografias:
 -AJAX
 -NodeJS
 -----------------------------------------------
-
 AULA JS 2
+-----------------------------------------------
+AULA JS 3
 
-VIDEO 17 POO Herança
+VIDEO 18 POO Polimosfismo
+-----------------------------------------------
+AULA JS 4
+
