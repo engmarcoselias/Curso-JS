@@ -1,13 +1,12 @@
-//HERANÇA E QUANDO UTILIZAMOS METODOS E ATRIBUTOS DE UMA CLASSE PAI NA CRIAÇÃO DE UMA CLASSE FILHO
-
+//PESSOA
 
 let Pessoa = function(){//Classe Pai
     this.nome = ''
     this.telefone = ''
     this.cpf = ''
 
-    this.GravarMemoria = function(){
-        Pessoa.Base.push(this)
     }
+    Pessoa.prototype.GravarMemoria = function(){ //metodo injetado dentro da minha classe pessoa.
+    Pessoa.Base.push(this)
 }
 Pessoa.Base = []

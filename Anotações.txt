@@ -1,5 +1,26 @@
 AULA JS  1
 
+link: https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+
+Finalizado
+-----------------------------------------------
+AULA JS 2
+
+link: https://www.youtube.com/watch?v=-KlmL1tbhqs&list=PLnNURxKyyLIIyJ_XKZHzU8SQyGu7yuqhn
+-----------------------------------------------
+AULA JS 3
+
+link: https://www.youtube.com/watch?v=XF4Iro4RdC4&list=PLEdPHGYbHhld_DLuYNMS90w4oBk9PrM7Y&index=18
+
+VIDEO 18 POO Polimosfismo
+-----------------------------------------------
+AULA JS 4
+
+link : https://www.youtube.com/watch?v=E1Ww5Y1EnWQ&list=PLnex8IkmReXxZEXje06kW1uCwm5iC8M_Z
+
+
+-------------------------------------------------
+
 Bibliografias:
 -Java Script O guia definitivo.David
 -Java Script Guia do Programador
@@ -14,12 +35,3 @@ Bibliografias:
 -JSON(TRASMITIR DADOS E SALVAR DADOS)
 -AJAX
 -NodeJS
------------------------------------------------
-AULA JS 2
------------------------------------------------
-AULA JS 3
-
-VIDEO 18 POO Polimosfismo
------------------------------------------------
-AULA JS 4
-
